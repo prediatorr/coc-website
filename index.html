@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    < div class="overlay" id="overlay">
+        <h3>Searching now.....</h3>
+    </div>
+    <div class="hero-bg">
+         <section class="top">
+             <header>
+                 <a href="#">Royal Warriors</a>
+                  
+             </header>
+             <h1><span> The Unique</span> Experience</h1>
+
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi iste placeat nemo omnis perspiciatis voluptatum odio fugiat ipsam animi harum. </p>
+
+             <div class="form-container">
+                 <form action="">  
+                     <div class="form-left">
+                        <label for="city">Enter Player Code</label>
+                        <input type="text" name="city" id="city">
+                        <p>Example: "#G08P0PY0"</p>
+                        
+                    </div>
+                    <input type="button" value="Find Base Now" id="cta-btn">
+                 </form>
+
+
+             </div>
+         </section>
+        
+    </div>
+
+    <section class="authentic">
+         <div class="right-col">
+             <h2>Excellence. Awesome</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minus repellat temporibus harum voluptates laboriosam aspernatur rerum quo impedit, neque illo est facilis sed ex consequuntur quis totam incidunt saepe! Reprehenderit, voluptas aliquid asperiores suscipit, reiciendis nihil dolorum, tempora culpa odio beatae veniam natus assumenda nam? Sapiente quisquam officia adipisci.</p>
+
+         </div>
+         <img src="image/coc.png" alt="picture of food in a bowl">
+    </section>
+
+    <script>
+
+        let btn = document.getElementById('cta-btn')
+        let overlay = document.getElementById('overlay')
+        btn.addEventListener('click',()=>{
+            overlay,style.display='grid';
+            overlay.classList.add('animate-overlay')   
+          })
+
+    </script>
+</body>
+</html>
